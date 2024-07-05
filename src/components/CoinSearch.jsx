@@ -52,16 +52,7 @@ const CoinSearch = ({ coins }) => {
               placeholder="Search a coin..."
               className="w-full bg-primary border border-input px-4 py-2 rounded-2xl shadow-xl"
             />
-            <button
-              onClick={createDoc}
-              style={{
-                padding: "10px",
-                border: "solid 1px white",
-                margin: "5px",
-              }}
-            >
-              Create Doc
-            </button>
+      
           </form>
         </div>
 
